@@ -1,5 +1,5 @@
 ﻿
-string[] ShowLessThenThree(string[] array)
+string[] LessThenThree(string[] array)
 {
     int counter = 0;
     int size = array.Length;
@@ -48,7 +48,7 @@ string[] array = {"hello", "2", "world", ":-)"};
 Console.Write(PrintArrayString(array));
 Console.Write(" -> ");
 
-string[] newArray = ShowLessThenThree(array);
+string[] newArray = LessThenThree(array);
 
 Console.WriteLine(PrintArrayString(newArray));
 Console.WriteLine();
@@ -58,7 +58,7 @@ string[] array1 = {"1234", "1567", "-2", "computer science"};
 Console.Write(PrintArrayString(array1));
 Console.Write(" -> ");
 
-string[] newArray1 = ShowLessThenThree(array1);
+string[] newArray1 = LessThenThree(array1);
 
 Console.WriteLine(PrintArrayString(newArray1));
 Console.WriteLine();
@@ -68,7 +68,7 @@ string[] array2 = {"Russia", "Denmark", "Kazan"};
 Console.Write(PrintArrayString(array2));
 Console.Write(" -> ");
 
-string[] newArray2 = ShowLessThenThree(array2);
+string[] newArray2 = LessThenThree(array2);
 
 Console.WriteLine(PrintArrayString(newArray2));
 Console.WriteLine();
